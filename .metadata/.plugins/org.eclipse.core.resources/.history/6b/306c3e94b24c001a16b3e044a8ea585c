@@ -1,0 +1,30 @@
+package com.bridgelabz.appconfig;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.stereotype.Controller;
+
+@Controller
+@EnableWebSecurity
+public class AppSecureConfig extends WebSecurityConfigurerAdapter {
+
+	@Bean
+	public AuthenticationProvider authenticationProvider() {
+		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+		return provider;
+
+	}
+
+	/*
+	 * @Bean
+	 * 
+	 * @Override protected UserDetailsService userDetailsService() {
+	 * List<UserDetails> user = new ArrayList<>();
+	 * user.add(User.withDefaultPasswordEncoder().username("vikash").password("123")
+	 * .roles("USER").build()); return new InMemoryUserDetailsManager(user); }
+	 */
+
+}

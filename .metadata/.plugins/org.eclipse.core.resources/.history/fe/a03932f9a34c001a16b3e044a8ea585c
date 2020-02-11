@@ -1,0 +1,5 @@
+package com.bridgelabz.appconfig;
+
+public class AppSecureConfig {
+
+}
