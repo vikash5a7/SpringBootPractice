@@ -4184,3 +4184,210 @@ org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementExc
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:52.993
+!MESSAGE Preparing classpath changed notification SecureApp-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:52.994
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:52.999
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:52.999
+!MESSAGE buffering callback sts4.classpath.hetldXOL SecureApp-1 false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:52.999
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:53.008
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:53.404
+!MESSAGE Preparing classpath changed notification SecureApp-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:53.404
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:53.408
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:53.409
+!MESSAGE buffering callback sts4.classpath.hetldXOL SecureApp-1 false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:53.409
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:21:53.422
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.541
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.544
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.553
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.554
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.554
+!MESSAGE Preparing classpath changed notification SecureApp-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.554
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.554
+!MESSAGE buffering callback sts4.classpath.hetldXOL SecureApp-1 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.555
+!MESSAGE executing callback sts4.classpath.hetldXOL 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:54.568
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:55.901
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:55.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:55.904
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:55.906
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:55.906
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:22:55.928
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:24:50.073
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:24:50.073
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:24:50.083
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:24:50.088
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:24:50.088
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:24:50.126
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:25:45.115
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:25:45.116
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:25:45.123
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:25:45.127
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:25:45.128
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:25:45.134
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:26:52.146
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:26:52.146
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:26:52.159
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:26:52.184
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:26:52.190
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:26:52.219
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:27:28.311
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:27:28.312
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:27:28.317
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:27:28.318
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:27:28.319
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:27:28.427
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:52:32.684
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:52:32.684
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:52:32.689
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:52:32.698
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:52:32.698
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:52:32.729
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:39.208
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:39.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:39.218
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:39.220
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:39.220
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:39.247
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:45.551
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:45.551
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:45.559
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:45.561
+!MESSAGE buffering callback sts4.classpath.hetldXOL Crudrest false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:45.567
+!MESSAGE executing callback sts4.classpath.hetldXOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 16:53:45.609
+!MESSAGE executing callback sts4.classpath.hetldXOL SUCCESS [done]
