@@ -36,17 +36,13 @@ public class TicketBookingController {
 	public Iterable<Ticket> getAllTickets() {
 		return ticketBookingService.getAllBookedTickets();
 	}
-	
 	@DeleteMapping(value = "/delete/{ticketId}")
 	public void deleteTicket(@PathVariable("ticketId") Integer ticketId)
 	{
 		ticketBookingService.deleteTicketById(ticketId);
 	}
-	
 	@PutMapping(value = "/ticket/{ticketId}/{newEmail:.+}")
 	public Ticket UpdateTicket(@PathVariable("ticketId") Integer ticketId,@PathVariable("newEmail") String newEmail) {
-		
-		
 		return ticketBookingService.updateTickets(ticketId,newEmail);
 		
 	}
