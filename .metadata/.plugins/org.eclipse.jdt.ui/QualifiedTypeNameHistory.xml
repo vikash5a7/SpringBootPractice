@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -28,4 +27,5 @@
 <fullyQualifiedTypeName name="com.bridgelabz.repo.UserRepositary"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Feb 14 14:43:06 IST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-42f9-18e7-0000082031a0 
+on database directory memory:/home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/TicketBookingManagement/testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/home/mobicomp/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/TicketBookingManagement
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-28-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
