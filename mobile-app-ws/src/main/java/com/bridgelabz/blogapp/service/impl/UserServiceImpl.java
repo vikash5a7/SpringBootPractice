@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.bridgelabz.blogapp.UserRepository;
 import com.bridgelabz.blogapp.entity.UserEntity;
+import com.bridgelabz.blogapp.repositary.UserRepository;
 import com.bridgelabz.blogapp.service.UserService;
 import com.bridgelabz.blogapp.shared.Util;
 import com.bridgelabz.blogapp.shared.dto.UserDto;
@@ -58,6 +58,16 @@ public class UserServiceImpl implements UserService {
 			throw new UsernameNotFoundException(email);
 
 		return new User(userEntity.getEmail(), userEntity.getEncryptedPassword(), new ArrayList<>());
+	}
+
+	@Override
+	public UserDto getUser(String email) {
+		UserEntity userEntity = userRepository.findByEmail(email);
+		if (userEntity == null)
+			throw new UsernameNotFoundException(email);
+		UserDto returnValue = new UserDto();
+		BeanUtils.copyProperties(userEntity, returnValue);
+		return returnValue;
 	}
 
 }

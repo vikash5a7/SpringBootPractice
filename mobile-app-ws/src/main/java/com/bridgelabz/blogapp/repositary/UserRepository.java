@@ -1,4 +1,4 @@
-package com.bridgelabz.blogapp;
+package com.bridgelabz.blogapp.repositary;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

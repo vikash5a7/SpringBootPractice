@@ -16,7 +16,10 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+import com.bridgelabz.blogapp.SpringApplicationContext;
 import com.bridgelabz.blogapp.model.request.UserLoginRequestModel;
+import com.bridgelabz.blogapp.service.UserService;
+import com.bridgelabz.blogapp.shared.dto.UserDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.jsonwebtoken.Jwts;
@@ -33,7 +36,6 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 	public Authentication attemptAuthentication(HttpServletRequest req, HttpServletResponse res)
 			throws AuthenticationException {
 		try {
-
 
 			UserLoginRequestModel creds = new ObjectMapper().readValue(req.getInputStream(),
 					UserLoginRequestModel.class);
@@ -54,9 +56,16 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
 		String token = Jwts.builder().setSubject(userName)
 				.setExpiration(new Date(System.currentTimeMillis() + SecurityConstants.EXPIRATION_TIME))
-				.signWith(SignatureAlgorithm.HS512, SecurityConstants.TOKEN_SECRET).compact();
-		res.addHeader(SecurityConstants.HEADER_STRING, SecurityConstants.TOKEN_PREFIX + token);
+				.signWith(SignatureAlgorithm.HS512, SecurityConstants.getTokenSecrect()).compact();
 
+		UserService userService = (UserService) SpringApplicationContext.getBean("userServiceImpl");
+		UserDto userDto = userService.getUser(userName);
+
+		res.addHeader(SecurityConstants.HEADER_STRING, SecurityConstants.TOKEN_PREFIX + token);
+		res.addHeader("UserId", userDto.getUserId());
 	}
+	
+	
+	
 
 }
