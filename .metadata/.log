@@ -12660,3 +12660,51 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:16:04.071
 !MESSAGE executing callback sts4.classpath.gNUdXZpT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:11.564
+!MESSAGE Preparing classpath changed notification mobile-app-ws
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:11.564
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:11.571
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:11.572
+!MESSAGE buffering callback sts4.classpath.gNUdXZpT mobile-app-ws false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:11.572
+!MESSAGE executing callback sts4.classpath.gNUdXZpT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:11.585
+!MESSAGE executing callback sts4.classpath.gNUdXZpT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:17.566
+!MESSAGE Preparing classpath changed notification mobile-app-ws
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:17.566
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:17.569
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:17.570
+!MESSAGE buffering callback sts4.classpath.gNUdXZpT mobile-app-ws false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:17.570
+!MESSAGE executing callback sts4.classpath.gNUdXZpT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:22:17.576
+!MESSAGE executing callback sts4.classpath.gNUdXZpT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:33:01.934
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gNUdXZpT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:33:01.934
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gNUdXZpT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:33:01.935
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 12:33:01.935
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gNUdXZpT => OK

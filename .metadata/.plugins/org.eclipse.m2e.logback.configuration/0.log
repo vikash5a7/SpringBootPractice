@@ -3334,3 +3334,36 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2020-02-15 12:16:20,114 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-02-15 12:16:20,118 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-02-15 12:16:20,118 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/mobile-app-ws/src/test/resources
+2020-02-15 12:21:53,177 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:mobile-app-ws:0.0.1-SNAPSHOT @ /home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/mobile-app-ws/pom.xml.
+2020-02-15 12:21:54,258 [Worker-47: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.pom
+2020-02-15 12:21:55,093 [Worker-47: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.pom
+2020-02-15 12:21:55,256 [Worker-47: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar
+2020-02-15 12:21:58,318 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.pom
+2020-02-15 12:21:59,290 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.pom
+2020-02-15 12:21:59,472 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar
+2020-02-15 12:22:01,540 [Worker-47: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar
+2020-02-15 12:22:10,613 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar
+2020-02-15 12:22:11,470 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:11,475 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-15 12:22:11,475 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-15 12:22:11,481 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:11,482 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/mobile-app-ws/src/test/resources
+2020-02-15 12:22:13,199 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:13,205 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-15 12:22:13,227 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-15 12:22:13,235 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:13,235 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/mobile-app-ws/src/test/resources
+2020-02-15 12:22:13,651 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0-sources.jar
+2020-02-15 12:22:17,042 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0-sources.jar
+2020-02-15 12:22:17,241 [Worker-54: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt:0.9.0
+2020-02-15 12:22:17,834 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:17,834 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-15 12:22:17,834 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-15 12:22:17,836 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:17,837 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/mobile-app-ws/src/test/resources
+2020-02-15 12:22:40,891 [Worker-47: Launching mobile-app-ws - MobileAppWsApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bridgelabz:mobile-app-ws:0.0.1-SNAPSHOT @ /home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/mobile-app-ws/pom.xml.
+2020-02-15 12:22:41,736 [Worker-47: Launching mobile-app-ws - MobileAppWsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:41,743 [Worker-47: Launching mobile-app-ws - MobileAppWsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-15 12:22:41,743 [Worker-47: Launching mobile-app-ws - MobileAppWsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-15 12:22:41,747 [Worker-47: Launching mobile-app-ws - MobileAppWsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-15 12:22:41,747 [Worker-47: Launching mobile-app-ws - MobileAppWsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/mobile-app-ws/src/test/resources
