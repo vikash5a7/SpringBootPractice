@@ -34,4 +34,7 @@
 <fullyQualifiedTypeName name="com.bridgelabz.peoplemangement.dao.PoepleManagements"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="com.bridgelabz.blogapp.shared.dto.UserDto"/>
+<fullyQualifiedTypeName name="com.bridgelabz.blogapp.entity.UserEntity"/>
 </qualifiedTypeNameHistroy>

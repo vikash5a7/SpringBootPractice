@@ -7,5 +7,6 @@ import com.bridgelabz.blogapp.shared.dto.UserDto;
 public interface UserService extends UserDetailsService {
 	UserDto createUser(UserDto userDto);
 	UserDto getUser(String Email);
+	UserDto getUserById(String id);
 
 }
