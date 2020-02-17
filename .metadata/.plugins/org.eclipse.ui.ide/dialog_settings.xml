@@ -52,7 +52,20 @@
 		<item key="DIALOG_X_ORIGIN" value="435"/>
 		<item key="DIALOG_Y_ORIGIN" value="133"/>
 		<item key="DIALOG_WIDTH" value="569"/>
-		<item key="DIALOG_HEIGHT" value="398"/>
+		<item key="DIALOG_HEIGHT" value="487"/>
 		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="BUILD_NOW" value="true"/>
+		<item key="BUILD_ALL" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/mobicomp/Downloads/springmvc-ws-master"/>
+			<item value="/home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/fundooapp"/>
+			<item value="/home/mobicomp/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/fundoonotes"/>
+		</list>
 	</section>
 </section>
