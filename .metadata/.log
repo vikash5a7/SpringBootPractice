@@ -872,3 +872,331 @@ java.lang.IllegalArgumentException: Argument not valid
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-15 18:49:11.973
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RXjgEBRY => OK
+!SESSION 2020-02-17 09:04:52.485 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=1.8.0_242
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2020-02-17 09:05:02.209
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-17 09:05:02.209
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51f4439e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@291cbe70,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:12.556
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:12.557
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7244d87[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:12.560
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:12.939
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.270
+!MESSAGE Boot LS startup time from start to initialized: 11416ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.557
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cnLzsXgfisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.616
+!MESSAGE subscribing to classpath changes: sts4.classpath.cnLzsXgf isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.619
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.623
+!MESSAGE subsribers = {sts4.classpath.cnLzsXgf=Send Classpath Notifications(76)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.624
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.624
+!MESSAGE project mobile-app-ws ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.625
+!MESSAGE project Crudrest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.625
+!MESSAGE Preparing classpath changed notification mobile-app-ws
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.626
+!MESSAGE project Crudrest SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.626
+!MESSAGE project Demo-awt ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.626
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.638
+!MESSAGE project Demo-awt SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.639
+!MESSAGE project EmaiService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.639
+!MESSAGE project EmaiService SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.640
+!MESSAGE project PeopleMangement ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.640
+!MESSAGE project PeopleMangement SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.640
+!MESSAGE project SecureApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.641
+!MESSAGE project SecureApp SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.641
+!MESSAGE project TicketBookingManagement ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.641
+!MESSAGE project TicketBookingManagement SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.641
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.642
+!MESSAGE project demo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.642
+!MESSAGE project webapp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.642
+!MESSAGE project webapp SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.665
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.666
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cnLzsXgf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.667
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.670
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf mobile-app-ws false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.684
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:24.822
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-02-17 09:05:26.080
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:46.133
+!MESSAGE Preparing classpath changed notification Crudrest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:46.133
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:46.139
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:46.143
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf Crudrest false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:46.143
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:05:46.181
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:06:15.568
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:06:15.568
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:06:15.576
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:06:15.577
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:06:15.578
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:06:15.592
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:14.442
+!MESSAGE Preparing classpath changed notification Demo-awt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:14.443
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:14.450
+!MESSAGE classpath=138 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:14.459
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf Demo-awt false 138
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:14.459
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:14.490
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:19.339
+!MESSAGE Preparing classpath changed notification EmaiService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:19.355
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:19.360
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:19.363
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf EmaiService false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:19.363
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:19.377
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:24.080
+!MESSAGE Preparing classpath changed notification PeopleMangement
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:24.081
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:24.090
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:24.096
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf PeopleMangement false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:24.096
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:24.115
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:29.021
+!MESSAGE Preparing classpath changed notification SecureApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:29.021
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:29.035
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:29.040
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf SecureApp false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:29.040
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:29.075
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:33.718
+!MESSAGE Preparing classpath changed notification TicketBookingManagement
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:33.719
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:33.732
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:33.734
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf TicketBookingManagement false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:33.734
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:33.761
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:47.089
+!MESSAGE Preparing classpath changed notification webapp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:47.090
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:47.099
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:47.100
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf webapp false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:47.102
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:07:47.127
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.079
+!MESSAGE Preparing classpath changed notification fundoo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.083
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.085
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.085
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf fundoo false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.085
+!MESSAGE Preparing classpath changed notification mobile-app-ws
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.086
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.086
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf mobile-app-ws true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.086
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:21.099
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:24.980
+!MESSAGE Preparing classpath changed notification fundoo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:24.981
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:24.987
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:24.989
+!MESSAGE buffering callback sts4.classpath.cnLzsXgf fundoo false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:24.990
+!MESSAGE executing callback sts4.classpath.cnLzsXgf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-17 09:09:25.047
+!MESSAGE executing callback sts4.classpath.cnLzsXgf SUCCESS [done]
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2020-02-17 09:10:22.703
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
